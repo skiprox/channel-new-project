@@ -1,0 +1,12 @@
+{
+  "name": "channel-new-project",
+  "version": "1.0.0",
+  "description": "creating new projects for Channel Studio",
+  "main": "index.js",
+  "author": "skiprox",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "inquirer": "^7.0.3"
+  }
+}
