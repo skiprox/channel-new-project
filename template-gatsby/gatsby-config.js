@@ -7,6 +7,7 @@ module.exports = {
     title: `<%= title %>`,
     description: `<%= description %>`,
     author: `@channelstudio`,
+    siteUrl: '<%= url %>',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

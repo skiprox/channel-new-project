@@ -2,6 +2,12 @@
 
 > Beep boop
 
+## Required stuff
+
+* name
+* description
+* url
+
 ## Gatsby
 
 #### to start:
