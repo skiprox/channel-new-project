@@ -1,0 +1,4 @@
+// import all files in the base
+@import 'settings', 'reset', 'utils', 'global', 'typography';
+// import all files in components
+@import 'components/Footer', 'components/Header', 'components/Home', 'components/NotFound';
