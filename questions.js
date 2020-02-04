@@ -17,8 +17,13 @@ module.exports = [
 	},
 	{
 		type: 'input',
-    	name: 'components',
-    	message: chalk.inverse('Desired components (put spaces in between):'),
+		name: 'description',
+		message: chalk.inverse('Project description:')
+	},
+	{
+		type: 'input',
+    	name: 'pages',
+    	message: chalk.inverse('Desired pages excluding index and 404 pages\n(please put spaces in between pages):'),
     	validate: function(val) {
     		return checkValid(val);
     	}
@@ -28,11 +33,5 @@ module.exports = [
 		name: 'includeGreensock',
 		message: chalk.inverse('Include Greensock in the build?'),
 		default: false
-	},
-	{
-		type: 'list',
-		name: 'testlist',
-		message: chalk.inverse('Testing out lists here...'),
-		choices: ['Fast', 'Slow']
 	}
 ];
