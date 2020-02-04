@@ -28,7 +28,6 @@ module.exports = {
         background_color: `#000000`,
         theme_color: `#000000`,
         display: `standalone`,
-        icon: `src/static/images/favicon.svg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-resolve-src`,
